@@ -29,6 +29,11 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Template Main CSS File -->
+    <link href="css/project.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -145,6 +150,100 @@
         </div>
     </div>
     <!-- Services End -->
+    <section id="project" class="portfolio section-bg margin-t">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h1 class="display-4 text-uppercase text-center mb-5">Portfolios</h1>
+
+            <p class="d-flex justify-content-center align-items-center text-center mb-5">
+              Welcome to my Project Section, where I proudly showcase the results
+              of my creative expertise and dedication. Explore my diverse
+              portfolio, highlighting innovative solutions and impactful outcomes.
+            </p>
+          </div>
+    
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Portfolios</li>
+                <li data-filter=".filter-card">Websites</li>
+                <!-- <li data-filter=".filter-web">Apps</li> -->
+              </ul>
+            </div>
+          </div>
+    
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="img/prtfl-1/prt-1.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>
+                    Portfolio 1 <br />
+                    Responsive
+                  </h4>
+                  <p>Portfolio</p>
+                  <div class="portfolio-links">
+                    <a href="img/prtfl-1/prt-1.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="prtfl-1.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                      title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="images/project/noon-cover-mobile.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>
+                    Noon <br />
+                    Responsive
+                  </h4>
+                  <p>Web</p>
+                  <div class="portfolio-links">
+                    <a href="images/project/noon-cover-mobile.png" data-gallery="portfolioGallery"
+                      class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                    <a href="project-noon.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                      title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="images/project/saltn-cover-web.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Salt'n Pepper</h4>
+                  <p>Web</p>
+                  <div class="portfolio-links">
+                    <a href="images/project/img1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                      title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="project-saltn-pepper.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                      title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="images/project/noon-cover.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Noon</h4>
+                  <p>Web</p>
+                  <div class="portfolio-links">
+                    <a href="images/project/noon-cover.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                      title="App 2"><i class="bx bx-plus"></i></a>
+                    <a href="project-noon.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                      title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
     <!-- Portfolio Start -->
@@ -561,6 +660,8 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
@@ -568,10 +669,12 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/project.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/lightbox.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/wow.min.js"></script>
+
 
 
 

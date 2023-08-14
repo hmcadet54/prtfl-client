@@ -144,6 +144,7 @@
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #148af9;
+  transition: linear;
 }
 
 .portfolio .portfolio-wrap:hover::before {

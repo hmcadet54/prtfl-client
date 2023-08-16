@@ -4,6 +4,37 @@
 
 (function() {
   "use strict";
+  // window.addEventListener('load', function() {
+  //     var iframe = document.querySelector('.preloader-1');
+  //     iframe.style.display = 'none';
+      
+  //     var mainContent = document.querySelector('.main-content');
+  //     mainContent.style.display = 'block';
+  // });
+//   $(window).on('load', function() {
+
+//     $('#js-preloader').addClass('loaded');
+
+// });
+$(window).on('load', function() {
+  // Add a delay before adding the 'loaded' class
+  setTimeout(function() {
+      $('#js-preloader').addClass('loaded');
+  }, 1700); // 3000 milliseconds = 3 seconds
+});
+// window.addEventListener('load', function () {
+//   const content = document.getElementById('content');
+
+//   // Add class to trigger the fade-in animation
+//   content.classList.add('visible');
+// });
+window.addEventListener('load', function () {
+  setTimeout(function() {
+      const content = document.getElementById('content');
+      // Add class to trigger the fade-in animation
+      content.classList.add('visible');
+  }, 1700); // 3000 milliseconds = 3 seconds delay
+});
 
   /**
    * Easy selector helper function

@@ -4,6 +4,9 @@
   --w: #FFAA17;
   --s: 2s; 
 }
+.cursor-p{
+  cursor: pointer;
+}
 .content {
   opacity: 0; /* Initially set to invisible */
   transform: translateY(15px); /* Start slightly below, for smooth transition */

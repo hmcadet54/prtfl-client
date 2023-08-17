@@ -20,7 +20,7 @@ $(window).on('load', function() {
   // Add a delay before adding the 'loaded' class
   setTimeout(function() {
       $('#js-preloader').addClass('loaded');
-  }, 1700); // 3000 milliseconds = 3 seconds
+  }, 1100); // 3000 milliseconds = 3 seconds
 });
 // window.addEventListener('load', function () {
 //   const content = document.getElementById('content');
@@ -33,7 +33,7 @@ window.addEventListener('load', function () {
       const content = document.getElementById('content');
       // Add class to trigger the fade-in animation
       content.classList.add('visible');
-  }, 1700); // 3000 milliseconds = 3 seconds delay
+  }, 1100); // 3000 milliseconds = 3 seconds delay
 });
 
   /**

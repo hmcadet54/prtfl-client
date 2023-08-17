@@ -84,6 +84,7 @@
         dots: true,
         loop: true,
         center: true,
+        
         responsive: {
             0: {
                 items: 1

@@ -14,6 +14,10 @@
   opacity: 1; /* Fade in by changing opacity */
   transform: translateY(0); /* Move back to original position */
 }
+.w-100{
+  width: 100%;
+  height: auto;
+}
 
 
 .js-preloader {

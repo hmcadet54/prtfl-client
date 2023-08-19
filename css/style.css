@@ -9843,6 +9843,40 @@ h6,
   color: #F4F5F8;
 }
 
+
+
+
+
+
+.service-item-1 {
+  height: 220px;
+  background: #222429;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.service-item-1:hover {
+  background: #F4F5F8;
+}
+
+.service-item-1 h4 {
+  color: white;
+  transition: .5s;
+}
+
+.service-item-1:hover h4 {
+  color: #222429;
+}
+
+.service-container
+{
+  width: 100%;
+  height: 10px;
+  border: 1px solid black;
+}
 .portfolio-item .portfolio-btn {
   position: absolute;
   width: 0;

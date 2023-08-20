@@ -674,7 +674,8 @@
                 <h1 class="display-4 text-uppercase text-center mb-5">Our Client's Say</h1>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item position-relative text-center rounded p-4">
-                        <img class="img-fluid rounded mx-auto my-4" src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-female--v1.png" alt="">
+                        <img class="img-fluid rounded mx-auto my-4"
+                            src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-female--v1.png" alt="">
                         <h5 class="text-uppercase">Ayesha Batool</h5>
                         <p class="text-uppercase">Own Small Business</p>
                         <p class="text-secondary">Thanks to HMA's Digi-Mini packages, my business, which was closed in
@@ -682,21 +683,24 @@
                             commendable.</p>
                     </div>
                     <div class="testimonial-item position-relative text-center rounded p-4">
-                        <img class="img-fluid rounded mx-auto my-4" src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-female--v1.png" alt="">
+                        <img class="img-fluid rounded mx-auto my-4"
+                            src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-female--v1.png" alt="">
                         <h5 class="text-uppercase">Amira</h5>
                         <p class="text-uppercase">Dubai</p>
                         <p class="text-secondary">HMA's portfolio design and development exceeded my expectations. They
                             beautifully showcased my work, leaving a lasting impression on potential clients</p>
                     </div>
                     <div class="testimonial-item position-relative text-center rounded p-4">
-                        <img class="img-fluid rounded mx-auto my-4" src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-male--v1.png" alt="">
+                        <img class="img-fluid rounded mx-auto my-4"
+                            src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-male--v1.png" alt="">
                         <h5 class="text-uppercase">Youseff Ibrahim</h5>
                         <p class="text-uppercase">Dubai</p>
                         <p class="text-secondary">HMA's portfolio design and development service was nothing short of
                             exceptional. They elegantly presented my work, reflecting true professionalism.</p>
                     </div>
                     <div class="testimonial-item position-relative text-center rounded p-4">
-                        <img class="img-fluid rounded mx-auto my-4" src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-male--v1.png" alt="">
+                        <img class="img-fluid rounded mx-auto my-4"
+                            src="https://img.icons8.com/pastel-glyph/64/FFFFFF/user-male--v1.png" alt="">
                         <h5 class="text-uppercase">Mabnsoor</h5>
                         <p class="text-uppercase">UAE</p>
                         <p class="text-secondary">HMA's digital marketing expertise has profoundly impacted my
@@ -718,12 +722,13 @@
                 <div class="w-100">
                     <div class="contact-form rounded p-0 w-100">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate"> -->
+                        <form action="https://formspree.io/f/xqkvqeda" method="POST">
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <div class="control-group">
                                         <input type="text" class="form-control bg-light border-0 p-1" id="name"
-                                            placeholder="Your Name" required="required"
+                                            placeholder="Your Name" required="required" name="Name"
                                             data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>
                                     </div>
@@ -731,7 +736,7 @@
                                 <div class="col-md-6">
                                     <div class="control-group">
                                         <input type="email" class="form-control bg-light border-0 p-1" id="email"
-                                            placeholder="Your Email" required="required"
+                                            placeholder="Your Email" required="required" name="Email"
                                             data-validation-required-message="Please enter your email" />
                                         <p class="help-block text-danger"></p>
                                     </div>
@@ -745,17 +750,17 @@
                                 <select name="" id="subject" class="form-control bg-light border-0 p-1"
                                     placeholder="Subject" required="required"
                                     data-validation-required-message="Please enter a subject">
-                                    <option value="none">None</option>
-                                    <option value="Digi-Mini">Digi-Mini</option>
-                                    <option value="Portfolio">Portfolio-website</option>
-                                    <option value="Extended">Extended</option>
-                                    <option value="Consultation">Consultation</option>
+                                    <option name="none" value="none">None</option>
+                                    <option name="Digi-Mini" value="Digi-Mini">Digi-Mini</option>
+                                    <option name="Portfolio-Website"value="Portfolio">Portfolio-website</option>
+                                    <option name="Extended"value="Extended">Extended</option>
+                                    <option name="Consultation"value="Consultation">Consultation</option>
                                 </select>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
                                 <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message"
-                                    placeholder="Message" required="required"
+                                    placeholder="Message" required="required" name="Message"
                                     data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
